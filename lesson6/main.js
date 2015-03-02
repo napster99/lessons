@@ -21,8 +21,8 @@ var fibonacci = function (n) {
 if(require.main === module) {
 	// 如果是直接执行 main.js，则进入此处
   	// 如果 main.js 被其他文件 require，则此处不会执行。
-  	console.log('>>>>'+ process.argv[0])
-  	console.log('>>>>'+ process.argv[1])
+  	console.log('>>>>'+ process.argv[0]);
+  	console.log('>>>>'+ process.argv[1]);
 
   	for(var i=0; i<10; i++) {
 		var n = Number(process.argv[i+2]);
